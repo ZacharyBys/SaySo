@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "449511383472",
+    "firebase_url": "https://say-so-63de8.firebaseio.com",
+    "project_id": "say-so-63de8",
+    "storage_bucket": "say-so-63de8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449511383472:android:6cc5d9d69c39a30a",
+        "android_client_info": {
+          "package_name": "com.tektuna.sayso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449511383472-3g7j75cs4fon4pdqd7l4hv0f3mj91r2s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tektuna.sayso",
+            "certificate_hash": "1b46d7fad574717c41337291efeecd9c99d9eda5"
+          }
+        },
+        {
+          "client_id": "449511383472-4ea3v0kj30pbqov60168fhd14v76nevb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaLJgl0L7ymvAqlA6Go9qbmO6EWvJ4-MM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449511383472-4ea3v0kj30pbqov60168fhd14v76nevb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
