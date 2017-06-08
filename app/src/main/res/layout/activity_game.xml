@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_game"
-    android:background="@drawable/gamebackground"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -11,24 +10,22 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="1dp"
     tools:context="com.tektuna.sayso.GameActivity"
-    android:onClick="screenTapped">
+    >
 
     <TextView
-        android:text="Who stole the cookie from the cookie jar?"
         android:layout_width="370dp"
         android:textColor="@color/textcolor"
         android:layout_height="175dp"
         android:gravity="center"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/question" />
 
     <TextView
-        android:text="Or was it you"
         android:layout_width="125dp"
-        android:gravity="right"
-        android:textSize="27dp"
+        android:gravity="end"
+        android:textSize="27sp"
         android:textColor="@color/textcolor"
         android:layout_height="120dp"
         android:layout_alignTop="@+id/answer1"
@@ -37,11 +34,10 @@
         android:id="@+id/answer2" />
 
     <TextView
-        android:text="Was it me"
         android:layout_width="125dp"
         android:layout_height="120dp"
-        android:textSize="27dp"
-        android:gravity="left"
+        android:textSize="27sp"
+        android:gravity="start"
         android:textColor="@color/textcolor"
         android:layout_marginBottom="96dp"
         android:id="@+id/answer1"
@@ -50,14 +46,14 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        android:background="@android:color/transparent"
+        android:id="@+id/buttonanswer2"
         android:layout_width="140dp"
         android:layout_height="300dp"
-        android:id="@+id/buttonanswer2"
-        android:layout_marginBottom="8dp"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent" />
 
     <Button
         android:background="@android:color/transparent"
@@ -74,10 +70,13 @@
         android:id="@+id/answer1tick"
         android:layout_alignTop="@+id/answer1"
         android:layout_alignLeft="@+id/answer1"
+        android:layout_alignStart="@+id/answer1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="85dp"
         android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:contentDescription="@string/answer1"
          />
 
     <ImageView
@@ -85,13 +84,16 @@
         android:layout_height="80dp"
         android:layout_alignBottom="@+id/answer1tick"
         android:layout_alignRight="@+id/answer2"
+        android:layout_alignEnd="@+id/answer2"
         android:layout_marginRight="30dp"
-        android:id="@+id/answer2tick" />
+        android:layout_marginEnd="30dp"
+        android:id="@+id/answer2tick"
+        android:contentDescription="@string/answer2"/>
 
     <TextView
         android:text=""
         android:layout_width="wrap_content"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:layout_height="wrap_content"
         android:textColor="@color/textcolor"
         android:layout_alignBottom="@+id/answer1"
@@ -101,7 +103,7 @@
     <TextView
         android:text=""
         android:layout_width="wrap_content"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:textColor="@color/textcolor"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/buttonanswer2"

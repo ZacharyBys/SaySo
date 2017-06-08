@@ -31,6 +31,7 @@ import java.util.Timer;
 import java.util.logging.Handler;
 
 public class GameActivity extends AppCompatActivity {
+
     TextView question, answer1, answer2, percentage1, percentage2;
     List<String> output = new LinkedList<String>();
     boolean refreshButton;
@@ -42,11 +43,13 @@ public class GameActivity extends AppCompatActivity {
     public String bP,yP;
     int delaytime = 1900;
     int bluePercentageCounter,yellowPercentageCounter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
         readquestions();
+
         String[] questionList = output.toArray(new String[output.size()]);
         questionQuantity = (output.size())/4;
         question = (TextView) findViewById(R.id.question);
@@ -63,6 +66,8 @@ public class GameActivity extends AppCompatActivity {
         answer2.setTypeface(type);
         percentage1.setTypeface(type);
         percentage2.setTypeface(type);
+
+        getWindow().getDecorView().setBackgroundResource(R.drawable.gamebackground);
 
 
         question.setText(questionList[currentQuestion*4+1]);
@@ -81,6 +86,7 @@ public class GameActivity extends AppCompatActivity {
                     refresher();
                     refreshButton = false;
                 } else {
+                    getWindow().getDecorView().setBackgroundResource(R.drawable.nextbackground);
                     answer1tick.setImageResource(R.drawable.greentick);
                     getPercentage();
                     refreshButton = true;
@@ -110,6 +116,7 @@ public class GameActivity extends AppCompatActivity {
                     refresher();
                     refreshButton = false;
                 } else {
+                    getWindow().getDecorView().setBackgroundResource(R.drawable.nextbackground);
                     answer2tick.setImageResource(R.drawable.greentick);
                     getPercentage();
                     refreshButton = true;
@@ -128,11 +135,15 @@ public class GameActivity extends AppCompatActivity {
 
     }
 
+
+
     public void refresher(){
             // Your code here
             Intent intent = getIntent();
             finish();
             startActivity(intent);
+            overridePendingTransition(0, 0);
+
 
     }
 
