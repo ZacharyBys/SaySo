@@ -286,6 +286,58 @@ Pepsi
 Which would you rather be?
 Illiterate
 Mute
+72
+Which country would you live in?
+China
+India
+73
+Which country would you live in?
+Canada
+United States
+74
+Which country would you live in?
+France
+England
+75
+Which pet would you choose to own?
+Penguin
+Lynx
+76
+Which came first?
+The chicken
+The egg
+77
+Who stole the cookie from the cookie jar?
+Was it me
+Or was it you
+78
+Is there a god?
+Yes
+No
+79
+Which city would you live in?
+New York
+Los Angeles
+80
+Would you rather
+Be Bald
+Have hair down to your feet
+81
+Where would you choose to work?
+Google
+Facebook
+82
+Which would you rather find?
+True love
+A briefcase with 10 Million $
+83
+Which would you rather have?
+Blue eyes
+Green eyes
+84
+Would you rather
+Drown
+Burn in a fire
 
 
 

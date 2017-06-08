@@ -23,7 +23,7 @@
         android:id="@+id/title" />
 
     <TextView
-        android:text="The game where you see if your opinions match others. Think of what you would choose, and say so!"
+        android:text="See how your opinion compares to those of others. Choose your opinion, and say so!"
         android:layout_width="280dp"
         android:textColor="@color/textcolor"
         android:layout_height="wrap_content"
