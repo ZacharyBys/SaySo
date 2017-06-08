@@ -338,6 +338,34 @@ Green eyes
 Would you rather
 Drown
 Burn in a fire
+85
+Which would you choose?
+New phone
+New laptop
+86
+Which item would you bring on desert island?
+Lighter
+Knife
+87
+Would you rather
+Have a head the size of a tennis ball
+Have a head the size of a watermelon
+88
+Would you rather
+Live forever
+Die in five minutes
+89
+Which would you rather do?
+Give a lapdance
+Get a lapdance
+90
+Which would you rather be?
+An ugly genius
+An attractive moron
+91
+Who would you rather have go through your texts/emails?
+Your significant other
+Your boss
 
 
 
