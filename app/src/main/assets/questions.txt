@@ -570,8 +570,54 @@ Rome
 Would you live in the woods for a week for 10,000$?
 Yes
 No
-
-
+143
+What do you think of mobile apps?
+They are Helpful
+They are a waste of time
+144
+Should student have to take drug tests?
+Yes
+No
+145
+Do you support capital punishment?
+Yes
+No
+146
+What would you rather win?
+An Olympic medal
+A Nobel prize
+147
+Which do you prefer?
+Blonde hair
+Red hair
+148
+What would you choose to be?
+Rock star
+Famous rapper
+149
+Who would win a race?
+A tortoise
+A Hare
+150
+What scares you more?
+Spiders
+Wasps
+151
+Which scares you more?
+Water
+Heights
+152
+Is Edward Snowden a criminal?
+Yes
+No
+153
+Do you think fidget spinners help kids with ADHD?
+Yes 
+No
+154
+What position would you choose?
+President of the USA
+Prime Minister of Canada
 
 
 
