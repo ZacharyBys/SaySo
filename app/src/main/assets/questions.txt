@@ -366,6 +366,215 @@ An attractive moron
 Who would you rather have go through your texts/emails?
 Your significant other
 Your boss
+92
+If you found a wallet with 2000$ in it, what would you do?
+Return the wallet
+Keep the money
+93
+What would you do if one of your friends had really bad breath?
+Tell them
+Keep it to yourself
+94
+Which would you prefer?
+Steak
+Fish
+95
+Which fruit would you choose?
+Apple
+Banana
+96
+Which chocolate bar is better?
+Mars
+Kitkat 
+97
+Which movie genre do you prefer?
+Action
+Drama
+98
+Which would you rather see?
+Concert
+Play
+99
+Which show is better?
+Big Bang Theory
+How I Met Your Mother
+100
+Which show is better?
+Breaking Bad
+Game of Thrones
+101
+Which superhero is better?
+Batman
+Superman
+102
+Which car brand would you choose?
+Audi
+BMW
+103
+Which would you prefer?
+Hunting
+Fishing
+104
+Which console do you prefer?
+Xbox
+Playstation
+105
+How do you like your shower?
+Hot 
+Cold
+106
+Which would you choose?
+Money 
+Fame
+107
+Which would you rather have?
+Kids
+Pets
+108
+Where would you rather swim?
+Lake
+Ocean
+109
+Would you rather
+Sit when everyone is standing
+Stand when everyone is sitting
+110
+Would you rather
+Be alone
+Be surrounded by annoying people
+111
+Choose a color
+Blue
+Yellow
+112
+Which would you rather sell?
+All of your possessions
+One of your organs
+113
+Which would you rather be?
+Balding but fit
+Overweight but with hair
+114
+Which power would you choose?
+Talk to animals
+See through walls
+115
+Which would you rather have?
+Automated home
+Self-driving car
+116
+Which would you rather be?
+Amazing painter
+Brillian mathematician
+117
+Which would you rather have?
+Get our of jail free car
+Key that opens all doors
+118
+Which would you rather have?
+Unlimited Wifi anywhere
+Unlimited Starbucks
+119
+Where would you choose to live?
+In a hut on the beach
+In a cabin in the woods
+120
+Where would you rather be lost?
+Sketchy neighboorhood
+In the woods
+121
+Which would you rather have?
+Flying carpet
+Car that can go underwater
+122
+Which would you rather find?
+A 20$ bill
+All of your missing socks
+123
+Which would you prefer?
+Never get stuck in traffic again
+Never have a cold again
+124
+Would you rather
+Only use 1 ply toilet paper
+Only have itchy sweaters
+125
+Which would you rather have?
+1 nipple
+2 belly buttons
+126
+Which would you rather?
+Live with no electricity
+Only eat 1 meal a day
+127
+Would you rather
+Never stand in line again
+Never wait at a red light again
+128
+Would you rather own
+The nicest bicycle on the market
+The worst car on the market
+129
+Would you rather
+Be covered in fur
+Be covered in scales
+130
+Where would you rather live?
+A cave
+A treehouse
+131
+Which would you rather be?
+Bowling champion
+Curling champion
+132
+Which would you want to master?
+Riding horses
+Driving dirt bikes
+133
+Would you rather
+Never have kids
+Only have quintuplets
+134
+What would you wear?
+Comfortable clothing
+Fashionable clothing
+135
+What would you rather do?
+Get up early
+Stay up late
+136
+What would you prefer doing?
+Ask for help
+Figure it out alone
+137
+What would you spend 5000$ on?
+Traveling
+A physical item
+138
+Would you rather
+Lose the ability to hear
+Lose the ability to talk
+139
+Would you sail around the world?
+Yes
+No
+140
+Pick a city to live in
+Montreal
+Toronto
+141
+Pick a city to live in 
+Athens
+Rome
+142
+Would you live in the woods for a week for 10,000$?
+Yes
+No
+
+
+
+
+
 
 
 
