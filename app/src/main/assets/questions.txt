@@ -618,8 +618,66 @@ No
 What position would you choose?
 President of the USA
 Prime Minister of Canada
-
-
+155
+Which animated show do you like better?
+Family Guy
+American Dad
+156
+Was the moon landing real or fake?
+Real
+Fake
+157
+Will North Korea attack the United States?
+Yes
+No
+158
+What would you rather grow?
+Tomatoes
+Potatoes
+159
+Which gadget do you prefer?
+Tablet
+Laptop
+160
+Which would you rather have?
+One good friend
+Many acquaintances
+161
+Which is better?
+Cake
+Pie
+162
+Who is smarter?
+Men
+Women
+163
+Who is smarter?
+Bill Gates
+Steve Jobs
+164
+Which would you rather do?
+Go skydiving
+Go bungee jumping
+165
+Do you know who Maribald Jenkins is?
+Yes
+No
+166
+Do you know where Islamistan is?
+Yes
+No
+167
+What is more important?
+Art
+Science
+168
+Would you go to jail for a month for 100,000$?
+Yes
+No
+169
+Which movie is better?
+Twilight
+The Hunger Games
 
 
 
