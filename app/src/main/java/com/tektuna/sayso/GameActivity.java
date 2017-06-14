@@ -41,6 +41,7 @@ public class GameActivity extends AppCompatActivity {
     public int answerId;
     public int bluePercentage, yellowPercentage,total;
     public String bP,yP;
+    public int adCounter;
     int delaytime = 1900;
     int bluePercentageCounter,yellowPercentageCounter;
 
@@ -86,7 +87,7 @@ public class GameActivity extends AppCompatActivity {
                     refresher();
                     refreshButton = false;
                 } else {
-                    getWindow().getDecorView().setBackgroundResource(R.drawable.nextbackground);
+                    getWindow().getDecorView().setBackgroundResource(R.drawable.leftbackground);
                     answer1tick.setImageResource(R.drawable.greentick);
                     getPercentage();
                     refreshButton = true;
