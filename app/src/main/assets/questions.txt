@@ -678,6 +678,22 @@ No
 Which movie is better?
 Twilight
 The Hunger Games
+170
+Would you rather
+Never feel pain
+Lose your sense of hearing
+171
+Who would you choose to play Harry Potter in a new movie?
+Nicholas Cage
+Tom Cruise
+172
+Which would you rather have?
+Nipples for fingers
+Fingers for nipples
+173
+Which style of dance do yo prefer?
+Salsa
+Break Dancing
 
 
 
