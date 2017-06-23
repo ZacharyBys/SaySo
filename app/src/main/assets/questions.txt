@@ -802,7 +802,42 @@ Jam
 Best meat in a souvlaki?
 Chicken
 Pork
-
+201
+Do you believe humans will ever build real artificial intelligence?
+Yes
+No
+202 
+Do you believe artificial intelligence will render humans useless?
+Yes
+No
+203
+Do you believe humans swallow 8 spiders a year?
+Yes
+No
+204
+Would you put your brain into a computer?
+Yes
+No
+205
+What would you rather eat?
+Monkey Brains
+Dog
+206
+Which is better?
+HotDog
+Hamburger
+207
+Who was a better president?
+Barrack Obama
+Donald Trump
+208
+Would you rob a bank if you would never be caught?
+Yes
+No
+209
+Does the bigfoot exist?
+Yes
+No
 
 
 
