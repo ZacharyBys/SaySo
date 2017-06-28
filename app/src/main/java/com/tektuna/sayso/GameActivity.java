@@ -203,18 +203,39 @@ public class GameActivity extends AppCompatActivity {
         percentage2.setText(yP + "%");
     }
 
+    public int currentInt, usedPercent, blueC, yellowC;
+    public boolean usingBlue;
     private void startCountAnimation() {
-        bluePercentageCounter=0;
-        yellowPercentageCounter=0;
-        ValueAnimator animator = ValueAnimator.ofInt(0, Math.max(bluePercentage,yellowPercentage));
+        if (bluePercentage>=yellowPercentage){
+            usedPercent = bluePercentage;
+            usingBlue = true;
+        } else {
+            usedPercent = yellowPercentage;
+            usingBlue = false;
+        }
+        ValueAnimator animator = ValueAnimator.ofInt(0, usedPercent);
         animator.setDuration(1000);
         animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             public void onAnimationUpdate(ValueAnimator animation) {
-                if (Integer.valueOf(animation.getAnimatedValue().toString()) <= bluePercentage)
-                         percentage1.setText(animation.getAnimatedValue().toString() + "%");
-                if (Integer.valueOf(animation.getAnimatedValue().toString()) <= yellowPercentage)
-                        percentage2.setText(animation.getAnimatedValue().toString() + "%");
-
+                currentInt = Integer.valueOf(animation.getAnimatedValue().toString());
+                if (currentInt <= bluePercentage) {
+                    percentage1.setText(Integer.toString(currentInt) + "%");
+                    if (currentInt == bluePercentage)
+                        blueC = currentInt;
+                }
+                if (currentInt <= yellowPercentage) {
+                    percentage2.setText(Integer.toString(currentInt) + "%");
+                    if (currentInt == yellowPercentage)
+                        yellowC = currentInt;
+                }
+                if (currentInt == usedPercent){
+                    if (blueC+yellowC != 100){
+                        if (usingBlue)
+                            percentage1.setText(Integer.toString(currentInt+1)+ "%");
+                        else
+                            percentage2.setText(Integer.toString(currentInt+1)+ "%");
+                    }
+                }
             }
         });
         animator.start();

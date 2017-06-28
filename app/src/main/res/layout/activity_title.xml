@@ -42,7 +42,19 @@
         android:layout_height="120dp"
         android:layout_below="@+id/subtitle"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="130dp"
         android:id="@+id/playbutton" />
+
+    <TextView
+        android:text="To see statistics for each answer, use with internet"
+        android:layout_width="400dp"
+        android:textColor="@color/textcolor"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/internet"
+        android:textSize="20dp"
+        android:layout_below="@+id/playbutton"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

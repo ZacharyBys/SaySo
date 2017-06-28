@@ -21,9 +21,11 @@ public class TitleActivity extends AppCompatActivity {
         ///////////////////////////////////////////////////////////////////////////////////
         TextView title = (TextView) findViewById(R.id.title);
         TextView subtitle = (TextView) findViewById(R.id.subtitle);
+        TextView internet = (TextView) findViewById(R.id.internet);
         Typeface type = Typeface.createFromAsset(getAssets(),"fonts/yummy.ttf");   //FONTS
         title.setTypeface(type);
         subtitle.setTypeface(type);
+        internet.setTypeface(type);
         ///////////////////////////////////////////////////////////////////////////////////
 
 
