@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -133,9 +134,20 @@ public class GameActivity extends AppCompatActivity {
             }
         });
 
+        RelativeLayout rlayout = (RelativeLayout) findViewById(R.id.activity_game);
+        rlayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (refreshButton){
+                    refresher();
+                    refreshButton = false;
+                }
+            }
+
+        });
+
 
     }
-
 
 
     public void refresher(){
