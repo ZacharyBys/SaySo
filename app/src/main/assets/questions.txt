@@ -838,11 +838,142 @@ No
 Does the bigfoot exist?
 Yes
 No
-
-
-
-
-
+210
+Have you ever shoplifted?
+Yes
+No
+211
+Did you ever walk out of a movie because it was bad?
+Yes
+No
+212
+Would you cut your own hair?
+Yes
+No
+213
+Have you ever cheated on a test?
+Yes
+No
+214
+Have you ever had a paranormal experience?
+Yes
+No
+215
+Have you ever been on TV?
+Yes
+No
+216
+Have you ever snuck into a movie theater?
+Yes
+No
+217
+Would you spend a day downtown naked for a million dollars?
+Yes
+No
+218
+Which would you rather do?
+Be homeless in the city for a week
+Live in a crummy appartment for 3 months
+219
+Which would you wear?
+Glasses
+Contact Lenses
+220
+Have you ever been to Africa?
+Yes
+No
+221
+Have you ever fainted?
+Yes
+No
+222
+Do you eat breakfast in the morning?
+Yes
+No
+223
+Are you for the use of GMOs?
+Yes
+No
+224
+Who is more guilty?
+OJ Simpson
+Bill Cosby
+225
+Who stole the cookie from the cookie jar?
+Was it me
+Or was it you
+226
+Best Asian treat?
+Fortune Cookie
+Bubble Tea
+227
+Best foot apparel?
+Crocs
+Sandals
+228
+Is Nicholas Cage a good actor?
+Yes
+No
+229
+Should they make more fast and furious movies?
+There should be 10 more
+Absolutely not
+230
+Are you above average intelligence?
+Yes
+No
+231
+Would you rather date someone short or tall?
+Short
+Tall
+232
+What would you choose to travel the world?
+Sail Boat
+Yacht
+233
+Your choice of house decor?
+Classic
+Modern
+234
+Pick the best meme
+Pepe the frog
+Salt bae
+235
+Is Tom Brady the greatest of all time?
+Yes
+No
+236
+Should we force children to go to school?
+Yes
+No
+237
+Should you need a license to have children?
+Yes
+No
+238
+Best Exctinct bird?
+Dodo Bird
+Pterodactyl
+239
+Which is Canadas true national sport?
+Hockey
+Lacrosse
+240
+When will we colonize Mars?
+In <15 years
+In >15years
+241
+Which would you rather get?
+200$
+An A on a final
+242
+Are we alone in the universe?
+Yes
+No
+243
+Which would you rather have?
+Spaghetti Legs
+Spaghetti Arms
 
 
 
