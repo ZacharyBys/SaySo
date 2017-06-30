@@ -3,4 +3,8 @@
 
     <string name="answer1">Answer1</string>
     <string name="answer2">Answer2</string>
+
+    <string name="test_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="app_unit_id"> ca-app-pub-2693589185869684/6060549850</string>
+
 </resources>

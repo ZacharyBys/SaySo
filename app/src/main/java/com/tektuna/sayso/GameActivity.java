@@ -6,12 +6,16 @@ import android.graphics.Typeface;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -46,10 +50,38 @@ public class GameActivity extends AppCompatActivity {
     int delaytime = 1900;
     int bluePercentageCounter,yellowPercentageCounter;
 
+    private InterstitialAd mInterstitialAd;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
+
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId(String.valueOf(R.string.test_unit_id));
+
+        String currentAd = (getIntent().getStringExtra("Adctr"));
+
+        if(currentAd != null)
+            adCounter = Integer.parseInt(currentAd);
+        else
+            adCounter = 0;
+
+        if(adCounter == 4) {
+
+            AdRequest adRequest = new AdRequest.Builder().build();
+            mInterstitialAd.loadAd(adRequest);
+
+            mInterstitialAd.setAdListener(new AdListener() {
+                @Override
+               public void onAdLoaded() {
+                   if(mInterstitialAd.isLoaded())
+                        mInterstitialAd.show();
+                }
+          });
+            adCounter = 0;
+        }
+
         readquestions();
 
         String[] questionList = output.toArray(new String[output.size()]);
@@ -91,6 +123,7 @@ public class GameActivity extends AppCompatActivity {
                     getWindow().getDecorView().setBackgroundResource(R.drawable.leftbackground);
                     answer1tick.setImageResource(R.drawable.greentick);
                     getPercentage();
+                    adCounter++;
                     refreshButton = true;
                 }
 
@@ -110,6 +143,7 @@ public class GameActivity extends AppCompatActivity {
                 ImageView answer2tick = (ImageView) findViewById(R.id.answer2tick);
                 //answer2tick.setImageResource(R.drawable.greentick);
                 answerId = 2;
+
                 //getPercentage();
 
                 android.os.Handler handler = new android.os.Handler();
@@ -121,6 +155,7 @@ public class GameActivity extends AppCompatActivity {
                     getWindow().getDecorView().setBackgroundResource(R.drawable.nextbackground);
                     answer2tick.setImageResource(R.drawable.greentick);
                     getPercentage();
+                    adCounter++;
                     refreshButton = true;
                 }
 
@@ -149,10 +184,17 @@ public class GameActivity extends AppCompatActivity {
 
     }
 
+    public void displayInterstitial(){
+
+        if(mInterstitialAd.isLoaded())
+            mInterstitialAd.show();
+    }
+
 
     public void refresher(){
             // Your code here
-            Intent intent = getIntent();
+            Intent intent = new Intent(getBaseContext(), GameActivity.class);
+            intent.putExtra("Adctr", Integer.toString(adCounter));
             finish();
             startActivity(intent);
             overridePendingTransition(0, 0);
