@@ -32,6 +32,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Random;
 import java.util.Timer;
 import java.util.logging.Handler;
 
@@ -92,7 +93,9 @@ public class GameActivity extends AppCompatActivity {
         percentage1 = (TextView) findViewById(R.id.percentage1);
         percentage2 = (TextView) findViewById(R.id.percentage2);
 
-        currentQuestion = (int) (Math.random() * (questionQuantity));
+        Random rand = new Random(System.currentTimeMillis());
+        currentQuestion = rand.nextInt(questionQuantity);
+        //currentQuestion = (int) (Math.random() * (questionQuantity));
 
         Typeface type = Typeface.createFromAsset(getAssets(),"fonts/yummy.ttf");   //FONTS
         question.setTypeface(type);
@@ -262,20 +265,24 @@ public class GameActivity extends AppCompatActivity {
                 currentInt = Integer.valueOf(animation.getAnimatedValue().toString());
                 if (currentInt <= bluePercentage) {
                     percentage1.setText(Integer.toString(currentInt) + "%");
-                    if (currentInt == bluePercentage)
-                        blueC = currentInt;
+                    blueC=currentInt;
                 }
                 if (currentInt <= yellowPercentage) {
                     percentage2.setText(Integer.toString(currentInt) + "%");
-                    if (currentInt == yellowPercentage)
-                        yellowC = currentInt;
+                    yellowC=currentInt;
                 }
-                if (currentInt == usedPercent){
-                    if (blueC+yellowC != 100){
-                        if (usingBlue)
-                            percentage1.setText(Integer.toString(currentInt+1)+ "%");
-                        else
-                            percentage2.setText(Integer.toString(currentInt+1)+ "%");
+                else if (currentInt >= usedPercent){
+                    percentage1.setText(Integer.toString(bluePercentage) + "%");
+                    percentage2.setText(Integer.toString(yellowPercentage) + "%");
+                    while (blueC+yellowC != 100) {
+                        if (blueC + yellowC != 100) {
+                            percentage1.setText(Integer.toString(blueC + 1) + "%");
+                            blueC++;
+                        }
+                        if (blueC + yellowC != 100) {
+                            percentage2.setText(Integer.toString(yellowC + 1) + "%");
+                            yellowC++;
+                        }
                     }
                 }
             }
